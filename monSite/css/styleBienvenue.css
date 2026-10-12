@@ -4,6 +4,13 @@
 }
 body{
     font-family: Comfortaa;
+    margin: 0;
+    min-height: 100vh;
+    /*pour que tout soit au centre*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -11,15 +18,13 @@ body{
 .anim{
     width: fit-content;
     height: fit-content;
-	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	backdrop-filter: blur(30px);
 	border-radius: 20px;
     border: solid white 5px;
-    margin-top:150px;
-    margin-left:350px ;
+    margin-bottom: 40px;
     padding: 20px;
 }
 
@@ -87,9 +92,8 @@ body{
     text-align: center;
 	padding: 20px;
 	border: solid white 4px;
-    margin-top: 350px;
-    margin-left: 210px ;
-    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -103,4 +107,15 @@ body{
 	top: 0;
 	bottom: 0;
 	z-index: -1;
+}
+
+/*pour les telephone*/
+@media screen and (max-width: 700px){
+	.lettre{
+		font-size: 34px;
+		letter-spacing: 4px;
+	}
+	.demande{
+		font-size: 20px;
+	}
 }

@@ -230,3 +230,21 @@ mark{
 	float: left;
   bottom: 0;
 }
+
+/*pour les telephone*/
+@media screen and (max-width: 700px){
+  .banniere{
+    font-size: 22px;
+    margin-top: 50px;
+  }
+  .texte, .text2, .boite1, .boite2, .boite3, .boite4{
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    float: none;
+  }
+  .tailleimg2{
+    width: 20%;
+    height: 20%;
+  }
+}

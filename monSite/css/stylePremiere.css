@@ -185,3 +185,134 @@ a::selection{
   background-color: #3e3e3e;
   color: red;
 }
+.t2 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#2b8871;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.t3 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#8b0000;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.t4 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#6a3d9a;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.t5 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#2579AF;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.t6 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#b35c00;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.t7 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#005e55;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.t8 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#3e3e3e;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.suivant{
+  background-color: black;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  float: left;
+  clear: both;
+}
+
+/*pour les telephone*/
+@media screen and (max-width: 700px){
+  .banniere{
+    font-size: 22px;
+    margin-top: 50px;
+  }
+  .présentation, .utile, .t1, .t2, .t3, .t4, .t5, .t6, .t7, .t8{
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    width: auto;
+    float: none;
+  }
+}

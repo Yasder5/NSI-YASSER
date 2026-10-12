@@ -84,3 +84,233 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px; /* roundness of the scroll thumb */
   border: 3px solid slategrey; /* creates padding around scroll thumb */
 }
+html {
+  scroll-behavior: smooth;
+}
+
+.présentation {
+  width: 95%;
+  height: fit-content;
+  padding: 10px;
+  margin: 20px;
+  font-size: 30px;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  float: left;
+  color: white;
+  border: solid	WHITE 3px;
+}
+
+.invisible{
+  text-decoration: none;
+  color: white; 
+}
+
+.t1 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#159e55;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.remonter{
+  color: black;
+  background-color: #2579AF;
+  position: fixed;
+  float: right;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  bottom:0; 
+  right:0;
+  height: fit-content;
+  width: fit-content;
+}
+
+.Copyright{
+	background: #2579AF;
+  width: body;
+  height: fit-content;
+  padding: 10px;
+  margin: 20px;
+  font-size: 10px;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  border: solid	WHITE 3px;
+  bottom: 0;
+}
+
+.utile {
+  width: body;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#005e55;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  border: solid	WHITE 3px;
+}
+.warning{
+  background-color: red;
+  border-radius: 20px;
+  padding: 10px;
+}
+a{
+  color: red;
+}
+
+::selection{
+  background-color: #3e3e3e;
+  color: white;
+}
+
+a::selection{
+  
+  background-color: #3e3e3e;
+  color: red;
+}
+.t2 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#2b8871;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.t3 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#8b0000;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.t4 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#6a3d9a;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.t5 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#2579AF;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.t6 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#b35c00;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.t7 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#005e55;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.t8 {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  background-color:#3e3e3e;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  vertical-align: middle;
+  border: solid	WHITE 3px;
+  overflow: hidden;
+}
+
+.suivant{
+  background-color: black;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  float: left;
+  clear: both;
+}
+
+/*pour les telephone*/
+@media screen and (max-width: 700px){
+  .banniere{
+    font-size: 22px;
+    margin-top: 50px;
+  }
+  .présentation, .utile, .t1, .t2, .t3, .t4, .t5, .t6, .t7, .t8{
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    width: auto;
+    float: none;
+  }
+}

@@ -149,3 +149,23 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid slategrey; /* creates padding around scroll thumb */
 }
 
+
+/*pour les telephone*/
+@media screen and (max-width: 700px){
+	.banniere{
+		font-size: 22px;
+		float: none;
+	}
+	.boite1{
+		font-size: 18px;
+		margin: 10px;
+	}
+	.boite2{
+		width: auto;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.Copyright{
+		float: none;
+	}
+}
